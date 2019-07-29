@@ -1,0 +1,478 @@
+html, body {
+	margin: 0; padding: 0;
+    background-color: whitesmoke;
+}
+h1, ul, li, a, div, p {
+	margin: 0; padding: 0;
+	color: #000;
+	list-style: none;
+	text-decoration: none;
+}
+h2 {
+	line-height: 30px;
+	margin-left: 50px;
+}
+header {
+    width: 100%;
+	background-color: rgba(255, 255, 255, 0.85);
+    overflow: hidden;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 11;
+}
+.mainlogo{
+    width: 200px;
+    float: left;
+    cursor: pointer;
+}
+
+b{color:rgb(27, 228, 104);}
+
+#expo{
+    text-align: center;
+    color: rgb(182, 0, 0);
+    font-size: 24px;
+    line-height: 70px;
+}
+header .menu {
+    display: inline-block;
+    margin-left: 100px;
+}
+header .menu li {
+	display: inline-block;
+	padding: 15px;
+}
+header .menu li a {
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+header .menu li a:hover {
+	background-color: rgb(216, 255, 212);
+	color: rgb(90, 1, 1);
+    padding: 30px;
+    text-decoration: none;
+}
+.pala{
+	font-size: 18px;
+	line-height: 40px;
+	margin: 15px 25px 0 40px;
+}
+#title {
+	line-height: 50px;
+    margin-left: 75px;
+    padding-top: 45px;
+}
+.chs{
+    font-size: 25px;
+    line-height: 50px;
+    margin: 24px 0 0 45px;
+}
+.boo{font-size: 23px;}
+
+.img{
+    width: 200px;
+    border: 1px solid  #030507;
+}
+.tv{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.myst :hover{
+    width: 230px;
+    transition: all 0.5s;
+}
+.btn1{
+    width: 150px; height: 50px;
+    color: rgb(3, 2, 20);
+    margin: 30px 0 55px 70px;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    border-radius: 45px;
+    transition: .3s;
+    background-color: rgb(241, 253, 245);
+}
+.btn1:hover{
+    background-color: rgb(28, 170, 47);
+    box-shadow: 0 10px 15px rgba(46,229,157,.4);
+    color: rgb(248, 248, 248);
+    transform: translateY(3px);
+}
+.btn2{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    border-radius: 45px;
+    transition: .3s;
+    background-color: rgb(11, 134, 175);
+    color: rgb(0, 0, 0);
+    margin: 40px;
+}
+.btn2:hover{
+    box-shadow: 0 10px 15px rgba(46, 229, 229, 0.4);
+    color: rgb(248, 248, 248);
+    background-color: rgb(28, 168, 214);
+    transform: translateY(3px);
+}
+.place{
+    width: 230px;
+    margin-left:40px;
+    background-color: whitesmoke;
+}
+.reg{
+    float:left;
+    margin-left: 30px;
+}
+.regs{
+    font-size: 30px;
+    margin-left:70px;
+    padding-bottom: 15px;
+}
+.reg .place{
+    margin-top: 10px;
+    display: block;
+}
+footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin-top: 100px;
+    border-top: 1px solid rgb(44, 0, 0);
+}
+.foot{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 10px 15px 15px 30px;
+}
+footer .nets{
+    display: inline-block;
+    margin: -100px 0 0 200px;
+}
+footer .nets li{
+    display: inline;
+}
+footer .nets li a img{
+    width: 70px; height: 70px;
+    margin: -40px 0 0 70px;  
+    filter: grayscale(85%);
+    opacity: .85;
+}
+
+#fb{width: 60px;height: 60px;}
+#yt{width: 100px;height: 85px;}
+
+footer .nets li a img:hover{
+    filter: none;
+    opacity: 1;
+    transition: all .15s ease-in-out;
+}
+footer .cards{
+    margin: -40px 0 0 185px;
+    padding-bottom: 30px;
+}
+
+footer .cards .mc{
+    width: 115px; height: 75px;
+    margin-left: 70px;
+}
+.crumb{padding-top: 75px;}  /*space beetwen menu and content */
+.addtext{display: none;}  /* for telephone  */
+
+/* Adaptivity */
+
+.bars{
+    margin-right: 100px;
+    display: none;
+    margin-top: 5px;
+    width: 40px; height: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.bars span{
+    display: block;
+    position: absolute;
+    height: 6.3px; width: 100%;
+    background-color: rgb(54, 185, 71);
+    border-radius: 10px;
+    transform: rotate(0deg);
+    transition: .25s ease-out;
+}
+.bars span:nth-child(1){
+    top: 0;
+}
+.bars span:nth-child(2), .bars span:nth-child(3){
+    top: 12px;
+}
+.bars span:nth-child(1){
+    top: 24px;
+}
+@media screen and (max-width: 1085px){
+        
+    .foot{
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        margin: 10px 0px 15px 10px;
+    }
+    footer .nets{
+        display: inline-block;
+        margin: -100px 0 0 150px;
+    }
+    footer .nets li{
+        display: inline;
+    }
+    footer .nets li a img{
+        width: 70px; height: 70px;
+        margin: -40px 0 0 40px;  
+        filter: grayscale(85%);
+        opacity: .85;
+    }
+
+    #fb{width: 60px;height: 60px;}
+    #yt{width: 100px;height: 85px;}
+
+    footer .nets li a img:hover{
+        filter: none;
+        opacity: 1;
+        transition: all .15s ease-in-out;
+    }
+    footer .cards{
+        margin: -40px 0 0 100px;
+        padding-bottom: 30px;
+    }
+    footer .cards .mc{
+        width: 115px; height: 75px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 870px){
+    header{
+        position: fixed;
+        z-index: 10;
+    }
+    .bars{
+        display: block;
+        margin-right: 10px;
+        margin-left: 40px;
+        float: right;
+    }
+    header .menu{
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    header .menu li {
+        display: none;
+        padding: 15px;
+    } 
+    .vision{
+        display: block;
+        padding: 15px;
+    }
+    header .menu li a {
+       display: block;
+       top: 0; right: 0; left: 0;
+       margin-top: 10px;
+       z-index: 12;
+       overflow: visible;
+       text-align: center;
+    }header .menu li a:hover {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(27, 228, 104);
+        padding: 1px;
+        text-decoration: none;
+        top: 0; right: 0; left: 0;
+        display: block;
+    }
+    #title{margin-top: 70px; }
+
+    #expo{
+        text-align: center;
+        color: rgb(182, 0, 0);
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .foot{
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        margin: 10px 0px 15px 10px;
+    }
+    footer .nets{
+        display: inline-block;
+        margin: 0px 0 0 0px;
+    }
+    footer .nets li{
+        display: inline;
+    }
+    footer .nets li a img{
+        width: 70px; height: 70px;
+        margin: 0px 0 0 40px;  
+        filter: grayscale(85%);
+        opacity: .85;
+    }
+
+    #fb{width: 60px;height: 60px;}
+    #yt{width: 100px;height: 85px;}
+
+    footer .nets li a img:hover{
+        filter: none;
+        opacity: 1;
+        transition: all .15s ease-in-out;
+    }
+    footer .cards{
+        margin: 0px 0 0 0px;
+        padding-bottom: 30px;
+    }
+    footer .cards .mc{
+        width: 115px; height: 75px;
+        margin-right: 0px;
+    }
+    .img{
+        width: 200px;
+        border: 1px solid  #030507;
+        margin-bottom: 20px;
+    }
+    .place{
+        width: 230px;
+        margin-left: 40px;
+    }
+    .reg{
+        float:left;
+        margin-left: 30px;
+    }
+    .regs{
+        font-size: 30px;
+        margin-left:70px;
+        padding-bottom: 15px;
+    }
+    .reg .place{
+        margin-top: 10px;
+        display: block;
+    }
+    .addtext{display: inline-block;}
+}
+@media screen and (max-width: 710px){
+    header{
+        position: fixed;
+        z-index: 10;
+    }
+    .bars{
+        display: block;
+        margin-right: 10px;
+        margin-left: 40px;
+        float: right;
+    }
+    header .menu{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    header .menu li {
+        display: none;
+        padding: 15px;
+    } 
+    .vision{
+        display: block;
+        padding: 15px;
+    }
+    header .menu li a {
+       display: block;
+       top: 0; right: 0; left: 0;
+       margin-top: 10px;
+       z-index: 12;
+       overflow: visible;
+       text-align: center;
+    }header .menu li a:hover {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(27, 228, 104);
+        padding: 1px;
+        text-decoration: none;
+        top: 0; right: 0; left: 0;
+        display: block;
+    }
+    #title{margin-top: 70px; }
+
+    #expo{
+        text-align: center;
+        color: rgb(182, 0, 0);
+        font-size: 18px;
+        line-height: 55px;
+    }
+    .foot{
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        margin: 10px 0px 15px 10px;
+    }
+    footer .nets{
+        display: inline-block;
+        margin: 0px 0 0 0px;
+    }
+    footer .nets li{
+        display: inline;
+    }
+    footer .nets li a img{
+        width: 70px; height: 70px;
+        margin: 0px 0 0 20px;  
+        filter: grayscale(85%);
+        opacity: .85;
+    }
+
+    #fb{width: 60px;height: 60px;}
+    #yt{width: 100px;height: 85px;}
+
+    footer .nets li a img:hover{
+        filter: none;
+        opacity: 1;
+        transition: all .15s ease-in-out;
+    }
+    footer .cards{
+        margin: 0px 0 0 0px;
+        padding-bottom: 30px;
+    }
+    footer .cards .mc{
+        width: 115px; height: 75px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 410px){
+    .place{
+        width: 230px;
+        margin-left: 40px;
+    }
+    .reg{
+        float:left;
+        margin-left: 0px;
+    }
+    .regs{
+        font-size: 30px;
+        margin-left:70px;
+        padding-bottom: 15px;
+    }
+    .reg .place{
+        margin-top: 10px;
+        display: block;
+    }
+}
+@media screen and (max-width: 380px){
+    .place{
+        width: 230px;
+        margin-left: 40px;
+    }
+    .reg{
+        float:left;
+        margin-left: -50px;
+    }
+    .regs{
+        font-size: 30px;
+        margin-left:70px;
+        padding-bottom: 15px;
+    }
+    .reg .place{
+        margin-top: 10px;
+        display: block;
+    }
+}
