@@ -28,13 +28,7 @@ header {
 
 b{color:rgb(27, 228, 104);}
 
-#expo{
-    text-align: center;
-    color: rgb(182, 0, 0);
-    font-size: 24px;
-    line-height: 70px;
-}
-#expo2{
+#expo, #expo2, #expo3{
     text-align: center;
     color: rgb(182, 0, 0);
     font-size: 24px;
@@ -295,12 +289,7 @@ footer .cards .mc{
     }
     #title{margin-top: 70px; }
 
-    #expo{
-        text-align: center;
-        color: rgb(182, 0, 0);
-        font-size: 20px;
-        line-height: 60px;
-    }#expo2{
+    #expo, #expo2, #expo3{
         text-align: center;
         color: rgb(182, 0, 0);
         font-size: 20px;
@@ -406,12 +395,7 @@ footer .cards .mc{
     }
     #title{margin-top: 70px; }
 
-    #expo{
-        text-align: center;
-        color: rgb(182, 0, 0);
-        font-size: 18px;
-        line-height: 55px;
-    }#expo2{
+    #expo, #expo2, #expo3{
         text-align: center;
         color: rgb(182, 0, 0);
         font-size: 18px;
