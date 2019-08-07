@@ -300,6 +300,11 @@ footer .cards .mc{
         color: rgb(182, 0, 0);
         font-size: 20px;
         line-height: 60px;
+    }#expo2{
+        text-align: center;
+        color: rgb(182, 0, 0);
+        font-size: 20px;
+        line-height: 60px;
     }
     .foot{
         font-size: 17px;
@@ -402,6 +407,11 @@ footer .cards .mc{
     #title{margin-top: 70px; }
 
     #expo{
+        text-align: center;
+        color: rgb(182, 0, 0);
+        font-size: 18px;
+        line-height: 55px;
+    }#expo2{
         text-align: center;
         color: rgb(182, 0, 0);
         font-size: 18px;
