@@ -34,6 +34,12 @@ b{color:rgb(27, 228, 104);}
     font-size: 24px;
     line-height: 70px;
 }
+#expo2{
+    text-align: center;
+    color: rgb(182, 0, 0);
+    font-size: 24px;
+    line-height: 70px;
+}
 header .menu {
     display: inline-block;
     margin-left: 100px;
